@@ -1,7 +1,7 @@
 # my-website
 My personal website that i make in Astro. <br>
-Astro makes it easier with components like a navbar that you can reuse and reducing javascript at the building proccess.
-
+Astro makes it easier with components like a navbar that you can reuse and reducing javascript at the building proccess.<br>
+I set the framework in this Astro installation to React.js
 # Run sourcecode
 ### [📚 Learn Astro →](https://docs.astro.build/en/getting-started/)<br><br>
 First go into the root directory and type:
