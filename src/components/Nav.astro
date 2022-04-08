@@ -34,8 +34,8 @@ const currentSite = Astro.canonicalURL.pathname
 
 <main>
   <a href="/" class="logo"><img src="/vlogo.png" ></a>
-  {(currentSite == '/projects/') ? <a href="/projects" class="active">Projects</a> : <a href="/projects">Projects</a>}
-  {(currentSite == '/contact/') ? <a href="/contact" class="active">Contact</a> : <a href="/contact">Contact</a>}
-  {(currentSite == '/aboutme/') ? <a href="/aboutme" class="active">About me</a> : <a href="/aboutme">About me</a>}
-  {(currentSite == '/') ? <a href="/" class="active">Home</a> : <a href="/">Home</a>}
+  <a href="/projects" class={(currentSite == '/projects/') ? "active" : ""}>Projects</a>
+  <a href="/contact" class={(currentSite == '/contact/') ? "active" : ""}>Contact</a>
+  <a href="/aboutme" class={(currentSite == '/aboutme/') ? "active" : ""}>About me</a>
+  <a href="/" class={(currentSite == '/') ? "active" : ""}>Home</a>
 </main> 

@@ -1,5 +1,6 @@
 ---
-//new Date().getFullYear()>2017&&document.write("-"+new Date().getFullYear());
+const currentYear = new Date().getFullYear();
+const copyrightPrefix = (currentYear > 2021) ? '2021-' : '';
 ---
 <style>
   main {
@@ -18,7 +19,7 @@
 </style>
 <main>
   <br>
-  &copy; 2022, vaporvee.
+  &copy; {copyrightPrefix}2022, vaporvee.
   <br><br>
   <a href="https://donate.vaporvee.com/">Donate</a> - <a href="https://status.vaporvee.com">Server Status</a> - <a href="https://github.com/cmod31/my-website">Sourcecode</a>
   <br><br>
