@@ -1,0 +1,22 @@
+---
+// Style Imports
+import '../styles/global.css';
+import Nav from '../components/Nav.astro';
+
+let { title } = Astro.props
+---
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>{title} | vaporvee's Website</title>
+
+	<link rel="icon" type="image/x-icon" href="/icon.ico" />
+</head>
+<body>
+	<Nav />
+	<div class="content" >
+	<slot />
+	</div>
+</body>
+</html>

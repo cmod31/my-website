@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed&display=swap');
+:root{
+    color-scheme: dark;
+  }
+body{
+    background-color: rgb(29, 29, 29);
+    font-family: 'Encode Sans Condensed', sans-serif;
+}
+.link {
+    color: #246fd1;
+  }
+
+/*content box*/
+.content {
+    background-color: #222;
+    padding: 30px;
+    min-height: 120px;
+    margin-top: 30px;
+    border-radius: 15px;
+    text-align: center;
+ }
+@media(min-width:800px) {
+.content {
+         width: 70%;
+         margin: 0 auto;
+         margin-top: 30px;
+    }
+  }
+@media(max-width:800px) {
+.content {
+      width: 90%;
+    }
+  }
