@@ -8,7 +8,8 @@ I have set the framework in this Astro installation to React.js
 # Run sourcecode:
 ### [📚 Learn Astro →](https://docs.astro.build/en/getting-started/)<br><br>
 Requirements:
-- a version of Node.js<br>
+- Node.js - 14.15.0, v16.0.0, or higher.<br>
+- Text Editor (VS Code is highly recommended with the Astro extension)
 - this sourcecode<br><br>
 
 First go into the root directory and type:
