@@ -1,11 +1,12 @@
 ---
-let { url } = Astro.props;
+let { rd } = Astro.props;
+let { content } = Astro.props;
 ---
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta http-equiv="refresh" content="0; url={url}" />
+    <meta http-equiv="refresh" content={content}>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Redirecting...</title>
     <style>
@@ -19,6 +20,6 @@ let { url } = Astro.props;
     </style>
 </head>
 <body>
-    <p><a href="{url}">Redirect</a></p>
+    <p><a href={rd}>Redirect</a></p>
 </body>
 </html>
