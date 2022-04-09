@@ -6,6 +6,12 @@ body{
     background-color: rgb(29, 29, 29);
     font-family: 'Encode Sans Condensed', sans-serif;
 }
+li {
+  list-style-type: none; 
+}
+a {
+  color: #f2f2f2
+}
 .link {
     color: #246fd1;
   }
@@ -13,7 +19,7 @@ body{
 /*content box*/
 .content {
     background-color: #222;
-    padding: 30px;
+    padding: 18px;
     min-height: 120px;
     margin-top: 30px;
     border-radius: 15px;
@@ -31,3 +37,18 @@ body{
       width: 90%;
     }
   }
+
+/*profile pic on aboutme*/
+.avatar {
+  border-radius: 50%;
+  display: inline-block;
+}
+.right {
+  float: right;
+  padding: 5px;
+  margin-right: 150px;
+}
+img:not(.noround), video {
+  border-radius: 10px;
+}
+

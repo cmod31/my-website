@@ -1,0 +1,93 @@
+/*socialbuttons*/
+/* Mail */
+button {
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 25px;
+  }
+  .b1 {
+    background-color: #1E90FF;
+  }
+  .b1:hover {
+    background-color: #217fdd;
+  }
+  /* GitHub */
+  .b2 {
+    background-color: #19253C;
+  }
+  
+ .b2:hover {
+    background-color: #091020;
+  }
+  
+/* Discord */
+  .b3 {
+    background-color: #5865F2;
+  }
+  
+ .b3:hover {
+    background-color: #404EED;
+  }
+
+  /* Twitch */
+  .b4 {
+    background-color: #6441a5;
+  }
+  
+ .b4:hover {
+    background-color: #563a8b;
+  }
+
+    /* YouTube */
+    .b5 {
+      background-color: #FF0000;
+    }
+    
+   .b5:hover {
+      background-color: #be0000;
+    }
+
+    /* OnlyFans */
+    .b6 {
+      background-color: #1f95b1;
+    }
+    
+   .b6:hover {
+      background-color: #1b89a5;
+    }
+
+    /* local "Contact" */
+    .b7 {
+      background-color: #FF6625;
+    }
+    
+   .b7:hover {
+      background-color: #d35621;
+      color: black;
+    }
+
+   /* gamebanana" */
+   .b8 {
+     background-color: #e6c927;
+    }
+        
+  .b8:hover {
+     background-color: #ccb220;
+    }
+
+
+/*coppybuttons*/
+.copybtn{
+    background-color: rgb(59, 59, 59);
+    border: none;
+    padding: 5px 5px;
+    border-radius: 25%;
+    color: white;
+    cursor: pointer;
+  }
+  .copybtn:active{
+  background-color: green;
+  }
