@@ -9,6 +9,7 @@
     "preview": "astro preview"
   },
   "devDependencies": {
+    "@astrojs/node": "0.0.2",
     "astro": "^1.0.0-beta.4"
   }
 }
