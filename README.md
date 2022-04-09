@@ -5,7 +5,7 @@ I have set the framework in this Astro installation to React.js
 
 # https://vaporvee.com/
 
-# Run sourcecode
+# Run sourcecode:
 ### [📚 Learn Astro →](https://docs.astro.build/en/getting-started/)<br><br>
 Requirements:
 - a version of Node.js<br>
