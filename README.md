@@ -12,7 +12,7 @@ Requirements:
 - Text Editor (VS Code is highly recommended with the Astro extension)
 - this sourcecode<br><br>
 
-First go into the root directory and type:
+First go into the root directory of this repo and type:
 ```bash
  npm install
  ```
