@@ -1,8 +1,9 @@
 # My personal Website
 My personal website that i make with Astro. <br>
 Astro makes it easier with components like a navbar that you can reuse and also reducing javascript at the building proccess.<br>
-I have set the framework in this Astro installation to React.js
-
+I have set the framework in this Astro installation to React.js<br>
+A GitHub Action runs the build script and pushes the build to the [build branch](https://github.com/cmod31/my-website/tree/build).<br> 
+My server pulls this branch every minute automatically.
 # https://vaporvee.com/
 
 # Run sourcecode:
