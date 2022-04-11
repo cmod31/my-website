@@ -2,6 +2,10 @@
 :root{
     color-scheme: dark;
   }
+.turbolinks-progress-bar {
+    background-color: #FF6625;
+  } /*hope it even works lol*/
+
 body{
     background-color: rgb(29, 29, 29);
     font-family: 'Encode Sans Condensed', sans-serif;
