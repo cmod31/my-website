@@ -25,6 +25,10 @@ const currentSite = Astro.canonicalURL.pathname
     padding-right:16px;
     padding-top:7px;
   }
+  .logo{
+    height: 32px;
+    width: 128px;
+  }
   main a:hover:not(.logo) {
     color: #ccc;
   }
@@ -34,8 +38,8 @@ const currentSite = Astro.canonicalURL.pathname
 </style>
 
 <main>
-  <a href="/" class="logo"><img src="/vlogo.png" ></a>
-  <a href="/projects" class={(currentSite == '/projects/') ? "active" : ""}>Projects</a>
+  <a href="/" class="logo"><img src="/vlogo-r.svg" ></a>
+  <a href="/blog" class={(currentSite == '/blog/') ? "active" : ""}>Blog</a>
   <a href="/contact" class={(currentSite == '/contact/') ? "active" : ""}>Contact</a>
   <a href="/aboutme" class={(currentSite == '/aboutme/') ? "active" : ""}>About me</a>
   <a href="/" class={(currentSite == '/') ? "active" : ""}>Home</a>
