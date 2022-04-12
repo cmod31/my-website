@@ -7,7 +7,6 @@ const currentSite = Astro.canonicalURL.pathname
     background-color: #333;
     border-radius: 15px;
     margin: 8px;
-    overflow: hidden;
   } 
   main a{
     float: right;
@@ -15,32 +14,52 @@ const currentSite = Astro.canonicalURL.pathname
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
-    font-family: "Helvetica";
+    font-size: 115%;
+    font-family:monospace;
   }
   main > a.logo {
     float: left;
-    padding:0;
-    padding-left:16px;
-    padding-right:16px;
+    padding: 0;
+    padding-left:15px;
     padding-top:7px;
   }
   .logo{
-    height: 32px;
-    width: 128px;
+    width: 7%;
   }
-  main a:hover:not(.logo) {
+  main a:hover:not(.logo,.active) {
     color: #ccc;
   }
+    main a:hover:not(.logo)::before {
+    position: fixed;
+    content: ">";
+  }
   main a.active {
-    text-decoration: underline;
+    color:#FF6625;
+  }
+
+    @media(max-width:800px) {
+    main a{
+      display:block;
+    }
+    .logo{
+      width: 25%;
+      float: none;
+     }
+    main a{
+      float: none;
+      color: #f2f2f2;
+      padding:0px 0px;
+      padding-top:7px;
+      font-size: 14px;
+      margin: 2px;
+     }
   }
 </style>
 
 <main>
   <a href="/" class="logo"><img src="/vlogo-r.svg" ></a>
-  <a href="/blog" class={(currentSite == '/blog/') ? "active" : ""}>Blog</a>
-  <a href="/contact" class={(currentSite == '/contact/') ? "active" : ""}>Contact</a>
-  <a href="/aboutme" class={(currentSite == '/aboutme/') ? "active" : ""}>About me</a>
-  <a href="/" class={(currentSite == '/') ? "active" : ""}>Home</a>
+  <a href="/blog" class={(currentSite == '/blog/') ? "active" : ""}>&nbsp Blog</a>
+  <a href="/contact" class={(currentSite == '/contact/') ? "active" : ""}>&nbsp Contact</a>
+  <a href="/aboutme" class={(currentSite == '/aboutme/') ? "active" : ""}>&nbsp About me</a>
+  <a href="/" class={(currentSite == '/') ? "active" : ""}>&nbsp Home</a>
 </main> 

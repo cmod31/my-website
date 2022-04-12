@@ -17,6 +17,9 @@ let { title } = Astro.props
 </head>
 <body>
 	<Nav />
+<video id="background-video" autoplay loop muted poster="/bg.webm">
+  <source src="/bg.webm" type="video/mp4">
+</video>
 	<div class="content" >
 	<slot />
 	</div>
