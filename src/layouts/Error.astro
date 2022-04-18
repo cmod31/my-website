@@ -6,28 +6,10 @@ let { error } = Astro.props;
     <link rel="shortcut icon" type="image/x-icon" href="/icon.ico">
     <title>vaporvee.com {error}</title>
     <style global>
-      @font-face {
-          font-family: 'Comic Sans MS';
-          src: url('/ComicSans.ttf') format('truetype');
+      body{
+        background:black;
+        overflow:hidden;
       }
-
-      @keyframes spinning {
-          from { transform: rotate(0deg) }
-          to { transform: rotate(360deg) }
-      }
-
-      .spin {
-          animation-name: spinning;
-          animation-duration: 2s;
-          animation-iteration-count: infinite;
-          animation-timing-function: linear;
-          position:fixed;
-          width:200vh;
-          height:200vh;
-          margin-top:-50vh;
-          margin-left:-50vh;
-      }
-
       .error {
         position: absolute;
         top: 50%;
@@ -35,7 +17,7 @@ let { error } = Astro.props;
         transform: translate(-50%, -50%);
         color: rgb(255, 255, 255);
         font-size: 300%;
-        font-family: "Comic Sans MS", sans-serif;
+        font-family: sans-serif;
       }
 
       .error-text {
@@ -44,13 +26,13 @@ let { error } = Astro.props;
           left: 50%;
           transform: translate(-50%, -50%);
           color: rgb(255, 255, 255);
-          font-family: 'Comic Sans MS', sans-serif;
+          font-family: sans-serif;
           font-size: 200%;
       }
     </style>
   </head>
-  <body style="background:black;overflow:hidden;">
-    <img class="spin" src="https://rbz-technik.de/media/2021/08/Vuko69.png">
+  <body>
+    <img src="/error-bg.gif">
     <h1 class="error">Error: {error}</h1>
     <slot />
   </body>
