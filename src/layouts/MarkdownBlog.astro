@@ -1,0 +1,9 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+const { content } = Astro.props;
+---
+<BaseLayout title="Blog">
+    <h1>{content.title}</h1>
+    <slot />
+    <p>Written on: {content.date} by {content.author}</p>
+</BaseLayout>
