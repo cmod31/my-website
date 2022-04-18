@@ -14,7 +14,7 @@ Requirements:
 
 First go into the root directory of this repo and type:
 ```bash
- npm install
+ npm i
  ```
 For testing and live editing for example in VS Code:
 ```bash
