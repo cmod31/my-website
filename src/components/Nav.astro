@@ -54,12 +54,18 @@ const currentSite = Astro.canonicalURL.pathname
       font-size: 14px;
       margin: 2px;
      }
+     .revert{  /*This is horrible code but it works*/
+      display: flex;
+      flex-direction: column-reverse;
+     }
   }
 </style>
 <header>
   <a href="/" class="logo"><img src="/vlogo-r.svg" ></a>
+  <div class="revert">
   <a href="/blog" class={(currentSite.startsWith('/blog/')) ? "active" : ""}>&nbsp Blog</a>
   <a href="/contact" class={(currentSite == '/contact/') ? "active" : ""}>&nbsp Contact</a>
   <a href="/aboutme" class={(currentSite == '/aboutme/') ? "active" : ""}>&nbsp About me</a>
   <a href="/" class={(currentSite == '/') ? "active" : ""}>&nbsp Home</a>
+  </div>
 </header> 
