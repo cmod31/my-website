@@ -3,7 +3,13 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 const { content } = Astro.props;
 ---
 <BaseLayout title="Blog">
-    <h1>{content.title}</h1>
+<a href="/blog" style="color:#FF6625">Back to the blog overview</a>
+    <h1>{content.title}</h1><br>
+    <img src={content.image} style="width:800px">
+<div style="text-align:left;padding:50px;">
     <slot />
-    <p>Written on: {content.date} by {content.author}</p>
+    <br>
+    <p style="font-size:12px;">Written on: {content.date}<br>
+    by {content.author}</p>
+</div>
 </BaseLayout>

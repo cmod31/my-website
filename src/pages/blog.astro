@@ -1,12 +1,18 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import BlogFetch from '../components/BlogFetch.astro';
 const allPosts = await Astro.glob('../pages/blog/*.md');
 allPosts.sort((a, b) => +new Date(b.frontmatter.date) - +new Date(a.frontmatter.date));
+const filteredposts = allPosts.filter(post => !post.frontmatter.draft)
 ---
 <BaseLayout title="Blog">
-	<h1>Coming soon!</h1>
-	{allPosts.slice(0, 5).map((post) => (
-        <BlogFetch url={post.url} title={post.frontmatter.title} description={post.frontmatter.description} date={post.frontmatter.date} image={post.frontmatter.image} />
+	<h1>Blog</h1>
+    <br><hr>
+	{filteredposts.slice(0, 5).map((post) => (
+    <h2>{post.frontmatter.title}</h2>
+    <p>{post.frontmatter.date}</p>
+    <img src={post.frontmatter.image} style="width: 500px;">
+    <p>{post.frontmatter.description}</p>
+     <a href={post.url}><button class="b7" style="width:180px">Read more</button></a><br><br>
+    <hr><br>
     ))}
 </BaseLayout>

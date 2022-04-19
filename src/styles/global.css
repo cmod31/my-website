@@ -24,11 +24,8 @@ li {
   list-style-type: none; 
 }
 a {
-  color: #f2f2f2
+  color: #246fd1
 }
-.link {
-    color: #246fd1;
-  }
 
 /*content box*/
 .content {

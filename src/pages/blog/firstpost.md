@@ -1,14 +1,15 @@
 ---
-title: "Hello, World"
+title: "First Blog Post"
 author: "Yannik/vaporvee"
-description: "Blog test post"
-date: "April 19th 2022"
+description: "I will post here stuff that i made or that interests me."
+date: "2022-04-19"
 image: ""
 layout: "../../layouts/MarkdownBlog.astro"
+draft: false
 ---
 # Hi there!
 
-This is your first markdown page. It probably isn't styled much, although
-Markdown does support **bold** and *italics.* 
-
-To learn more about adding a layout to your page, read the next section on **Markdown Layouts.**
+I will post here stuff that i made or that interests me.<br>
+So its a bit like my public bookmarks.<br>
+I make this with Markdown and the cool [Astro](https://astro.build/) features.
+[Here](https://github.com/cmod31/my-website/tree/main/src/pages/blog) are the Markdown files.<br>
