@@ -1,5 +1,9 @@
 ---
 title: "Hello, World"
+author: "Yannik/vaporvee"
+description: "Blog test post"
+date: "April 19th 2022"
+image: ""
 layout: "../../layouts/MarkdownBlog.astro"
 ---
 # Hi there!

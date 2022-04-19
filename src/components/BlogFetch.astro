@@ -1,0 +1,10 @@
+---
+const { url, title, description, date, image } = Astro.props;
+---
+<hr>
+  <img src={image} />
+  <h3>{title}</h3>
+  <!--<p>{new Date(date).toISOString().slice(0, 10)}</p>-->
+  <p>{description}</p>
+  <a href={url}>Read more</a>
+<hr>
