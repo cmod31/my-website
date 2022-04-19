@@ -3,12 +3,12 @@ const currentSite = Astro.canonicalURL.pathname
 ---
 
 <style>
-  main {
+  header {
     background-color: #333;
     border-radius: 15px;
     margin: 8px;
   } 
-  main a{
+  header a{
     float: right;
     color: #f2f2f2;
     text-align: center;
@@ -17,7 +17,7 @@ const currentSite = Astro.canonicalURL.pathname
     font-size: 115%;
     font-family:monospace;
   }
-  main > a.logo {
+  header > a.logo {
     float: left;
     padding: 0;
     padding-left:15px;
@@ -26,19 +26,19 @@ const currentSite = Astro.canonicalURL.pathname
   .logo{
     width: 7%;
   }
-  main a:hover:not(.logo,.active) {
+  header a:hover:not(.logo,.active) {
     color: #ccc;
   }
-    main a:hover:not(.logo)::before {
+    header a:hover:not(.logo)::before {
     position: fixed;
     content: ">";
   }
-  main a.active {
+  header a.active {
     color:#FF6625;
   }
 
     @media(max-width:800px) {
-    main a{
+    header a{
       display:block;
     }
     .logo{
@@ -46,7 +46,7 @@ const currentSite = Astro.canonicalURL.pathname
       position: absolute;
       float: none;
      }
-    main a{
+    header a{
       float: none;
       color: #f2f2f2;
       padding:0px 0px;
