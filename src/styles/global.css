@@ -40,8 +40,8 @@ a {
     width: 60%;
  }
 @media(max-width:800px) {
-.content {
-      width: 70%;
+.content-box {
+      width: 80%;
     }
 .ghavatar{
    display: none;
