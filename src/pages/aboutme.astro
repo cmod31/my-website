@@ -1,9 +1,10 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { Icon } from 'astro-icon'
 ---
 <BaseLayout title="About me">
   <h1>About me</h1>
-  <br><br>
+  <br>
   <img src="https://avatars.githubusercontent.com/u/80621863" class="ghavatar right noround" height="100vw"><br>
   <div style="text-align: left;margin-left:10%;">
     Hello my name is Yannik.
@@ -13,25 +14,26 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     I also program in my free time. The important stuff happens on my <a class="link" href="https://github.com/cmod31/">GitHub</a>.<br>
     Hopefully I can use this about site to get a job or something so <br>
   </div>
+  <br>
 	  I do:
     <br><br>
-    <li><i class="fa fa-csharp"></i> C-Sharp<br></li>
+    <li><Icon name="icomoon-free:html-five" style="width:18px"/>&nbsp HTML<br></li>
     <br>
-    <li><i class="fa fa-html5"></i> HTML<br></li>
+    <li><Icon name="cib:css3" style="width:18px"/>&nbsp CSS<br></li>
     <br>
-    <li><i class="fa fa-css3"></i> CSS<br></li>
+    <li><Icon name="teenyicons:c-sharp-solid" style="width:18px"/>&nbsp C-Sharp<br></li>
     <br>
-    <li><i class="fa fa-flask"></i> JavaScript<br></li>
+    <li><Icon name="ps:wordpress" style="width:18px"/>&nbsp WordPress<br></li>
     <br>
-    <li><i class="fa fa-wordpress"></i> WordPress<br></li>
+    <li><Icon name="fluent:javascript-16-filled" style="width:18px"/>&nbsp JavaScript<br></li>
     <br>
-    <li><i class="fa fa-camera"></i> Photography<br></li>
+    <li><Icon name="carbon:camera" style="width:18px"/>&nbsp Photography<br></li>
     <br>
-    <li><i class="fa fa-file-photo-o"></i> Graphic Editing<br></li>
+    <li><Icon name="clarity:picture-outline-badged" style="width:18px"/>&nbsp Graphic Editing<br></li>
     <br>
-    <li><i class="fa fa-file-video-o"></i> Video Editing<br></li>
+    <li><Icon name="clarity:video-gallery-line" style="width:18px"/>&nbsp Video Editing<br></li>
     <br>
-    <li><i class="fa fa-file-audio-o"></i> Audio Editing<br></li>
+    <li><Icon name="cil:audio-spectrum" style="width:18px"/>&nbsp Audio Editing<br></li>
     <br>
   <a href="/contact"><button class="b7" style="width:180px">Contact</button></a>
 </BaseLayout>
