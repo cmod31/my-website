@@ -21,18 +21,18 @@ body{
     min-height: 100vh;
     flex-direction: column;
     color: white;
+  }
+  a {
+    color: #246fd1
+  }
+  
+  h1{
     text-align: center;
-}
-a {
-  color: #246fd1
-}
-
-h1{
+  }
+  
+  /*content box*/
+  .content-box {
   text-align: center;
-}
-
-/*content box*/
-.content-box {
     background-color: #222;
     padding: 18px;
     min-height: 120px;
