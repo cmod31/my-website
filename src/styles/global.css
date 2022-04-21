@@ -10,6 +10,8 @@
   }
 p{
   font-size: 18px;
+  margin-left:10%;
+  text-align: left;
 }
 body{
     background-color: #292929;
@@ -19,12 +21,14 @@ body{
     min-height: 100vh;
     flex-direction: column;
     color: white;
-}
-li {
-  list-style-type: none; 
+    text-align: center;
 }
 a {
   color: #246fd1
+}
+
+h1{
+  text-align: center;
 }
 
 /*content box*/
@@ -33,7 +37,6 @@ a {
     padding: 18px;
     min-height: 120px;
     border-radius: 15px;
-    text-align: center;
     margin: 12px;
     margin-left: auto;
     margin-right: auto;

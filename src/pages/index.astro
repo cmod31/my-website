@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { Markdown } from 'astro/components';
 ---
 <BaseLayout title="Home">
   <h1> Welcome to my website! </h1>
@@ -11,7 +12,18 @@ import BaseLayout from '../layouts/BaseLayout.astro';
   <br><br>
   This website is highly work in progress and there will be a much better design soon.<br>
   I'll just copy the old code first and adapt it to "Atsro".<br>
+  <br>
   </p>
+  <Markdown style="text-align: left;">
+<br>
+<br>
+
+  ### Tasklist
+
+* [x] Adapted everything to Astro
+* [ ] Better homepage wich doesn't look like the other pages
+* [ ] Better about me
+* [x] Blog
+  </Markdown>
   <br><br>
-<br><br>
 </BaseLayout>

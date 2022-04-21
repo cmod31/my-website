@@ -24,6 +24,7 @@ Also it gets all the updates.<br>
 <br>
 The comunity is very nice and helpful in the Discord and also on the Forum.<br>
 So definitely take a look at this:<br>
+
 - [Forum](https://forum.uuvana.com/t/longvinter)
 - [Discord](https://discord.gg/longvinter)
 - [Buy the Game on Steam (only if you join my server lol)](https://store.steampowered.com/app/1635450/Longvinter/)
