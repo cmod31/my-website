@@ -10,10 +10,9 @@
   }
 p{
   font-size: 18px;
-  margin-left:10%;
-  text-align: left;
 }
 body{
+    text-align: center;
     background-color: #292929;
     font-family: 'Rubik Light', sans-serif;
     display: flex;
@@ -25,14 +24,13 @@ body{
   a {
     color: #246fd1
   }
-  
   h1{
     text-align: center;
   }
   
   /*content box*/
   .content-box {
-  text-align: center;
+    text-align: center;
     background-color: #222;
     padding: 18px;
     min-height: 120px;
