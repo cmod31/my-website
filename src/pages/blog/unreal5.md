@@ -3,7 +3,7 @@ title: "Unreal Engine 5"
 author: "Yannik/vaporvee"
 description: "I started learning Unreal Engine 5 and its amazing"
 date: "2022-05-03"
-image: "../blog/content/unreal.webp"
+image: "/blog/content/unreal.webp"
 layout: "../../layouts/MarkdownBlog.astro"
 draft: false
 ---
@@ -19,4 +19,4 @@ There are also free assets for the beginning in the Unreal asset store for free 
 
 [Getting started with Unreal Engine 5](https://www.unrealengine.com/en-US/unreal-engine-5)
 
-<video src="../blog/content/unreal.webm" style="width:60%;padding:2%;" controls><br>
+<video src="/blog/content/unreal.webm" style="width:60%;padding:2%;" controls><br>
