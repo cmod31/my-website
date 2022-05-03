@@ -3,7 +3,7 @@ title: "Game recommendation: Longvinter"
 author: "Yannik/vaporvee"
 description: "I will talk here about a Steam game called Longvinter"
 date: "2022-04-20"
-image: "/blog-content/longvinter-night.webp"
+image: "../blog/content/longvinter-night.webp"
 layout: "../../layouts/MarkdownBlog.astro"
 draft: false
 ---
